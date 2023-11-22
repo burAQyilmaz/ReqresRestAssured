@@ -1,3 +1,5 @@
+
+@wip
 Feature: List User Functionality
 
   Background:
@@ -93,7 +95,7 @@ Feature: List User Functionality
       | 2       |
 
 
-  @wip
+
   Scenario Outline:Verify that if given ids and first_names match
     When I use this query param "page" "<pageNum>"
     And I use get method

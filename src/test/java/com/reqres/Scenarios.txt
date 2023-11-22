@@ -42,15 +42,13 @@ SINGLE USER
 
 2.0 -->single_user.feature
 
-2.1 Scenario: Verify id, email, first_name,last_name for first/second page  
+2.1  Scenario: Verify id, email, first_name,last_name for first/second page
 
-2.2  Scenario Outline: Check user list includes  specific users with below ids
+2.2  Scenario Outline: Check if the id from response matches with given id
 
-2.3  Scenario Outline: Check if the avatars is accessible for each user
+2.3  Scenario Outline: Check if the avatars of given id is accessible
 
-2.4  Scenario Outline: Check if the avatars is accessible for each user
-
-2.5  Scenario Outline: Access the single user page with invalid ids and verify that status code 404
+2.4  Scenario Outline: Access the single user page with invalid ids and verify that status code 404
 
 
 

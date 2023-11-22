@@ -10,7 +10,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
-public class list_users_SD extends BaseStepDef {
+public class List_Users_SD extends BaseStepDef {
 
     @Given("I use this path {string}")
     public void i_use_this_path(String path) {
@@ -28,7 +28,8 @@ public class list_users_SD extends BaseStepDef {
     @When("I use get method")
     public void i_use_get_method() {
 
-        response = given().spec(reqSpec).get(endPoint);
+        response = given().spec(reqSpec)
+                .when().get(endPoint);
     }
 
     @Then("status code should be {int}")
