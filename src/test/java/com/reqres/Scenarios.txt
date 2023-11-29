@@ -54,7 +54,7 @@ SINGLE USER
 
 4.0-->list_resources.feature
 
-4.1  Scenario: Verify page, per_page, total, total_pages
+4.1 Scenario: Verify page, per_page, total, total_pages
 
 4.2 Scenario: List all data with 2000 and 2001 years
 

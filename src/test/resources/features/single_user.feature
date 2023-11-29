@@ -37,7 +37,7 @@ Feature: Single User Functionality
     Then status code should be 200
     And "data.avatar" url should be working
 
-  @wip
+
   Scenario Outline: Access the single user page with invalid ids and verify that status code 404
     Given I use this path "<id>"
     When I use get method

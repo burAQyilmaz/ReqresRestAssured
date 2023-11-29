@@ -1,5 +1,5 @@
 
-@wip
+
 Feature: List User Functionality
 
   Background:
@@ -93,7 +93,6 @@ Feature: List User Functionality
       | pageNum |
       | 1       |
       | 2       |
-
 
 
   Scenario Outline:Verify that if given ids and first_names match
